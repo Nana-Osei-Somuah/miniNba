@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.body {
+	 background: rgba(0, 0, 0, 0.9);
+	 font-family: 'Open Sans', sans-serif;
+}
+/* links */
+ .nfl a, .mlb a, .nhl a, .pga a {
+	 text-decoration: none;
+	 transition: color 0.2s ease-out;
+}
+ .nfl a {
+	 color: rgba(79, 192, 210, 1);
+}
+ .nfl a:hover {
+	 color: rgba(38, 134, 149, 1);
+}
+ .mlb a {
+	 color: rgba(82, 210, 154, 1);
+}
+ .mlb a:hover {
+	 color: rgba(39, 151, 102, 1);
+}
+ .nhl a {
+	 color: rgba(231, 196, 104, 0.7);
+}
+ .nhl a:hover {
+	 color: rgba(201, 154, 32, 0.7);
+}
+ .pga a {
+	 color: rgba(235, 118, 85, 1);
+}
+ .pga a:hover {
+	 color: rgba(195, 61, 23, 1);
+}
+/* wrapper */
+ .wrapper {
+     width: 100%;
+     height: 600px;
+	 /* max-width: 1000px; */
+	 margin: 20px auto 100px auto;
+	 padding: 0;
+	 background: rgba(255, 255, 255, 0.1);
+	 color: rgba(255, 255, 255, 0.9);
+	 overflow: hidden;
+	 position: relative;
+}
+/* lists */
+ .row1 ul {
+	 margin: 0;
+	 padding: 0;
+}
+ .row1 ul li {
+	 margin: 0;
+	 font-size: 100px;
+	 font-weight: 500px;
+	 list-style: none;
+	 display: inline-block;
+	 width: 20%;
+	 box-sizing: border-box;
+}
+ 
+	 .row1 ul li {
+		 font-size: 50px;
+    }
+    
+ 
+	 .row1 ul li {
+		 font-size: 13px;
+	}
+ .title ul li {
+	 padding: 15px 13px;
+}
+ .row1 ul li {
+	 padding: 5px 10px;
+}
+/* rows */
+ .row1 {
+     padding: 4% 0 4% 0;
+	 /* padding: 20px 0; */
+	 height: 30px;
+	 font-size: 0;
+	 position: relative;
+	 overflow: hidden;
+	 transition: all 0.2s ease-out;
+	 border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+ .title {
+	padding: 1.5% 0 1.5% 0;
+	 height: 60px;
+	 font-size: 0;
+	 background-color: rgba(255, 255, 255, 0.1);
+	 border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+ .title:hover {
+	 height: 45px;
+	 background-color: rgba(255, 255, 255, 0.1);
+	 border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+ 
+	 .title-hide {
+		 display: none;
+    }
+    
+ .nfl {
+	 border-left: 3px solid rgba(28, 97, 108, 1);
+}
+ .nfl:hover {
+	 border-left: 3px solid rgba(79, 192, 210, 1);
+}
+ .mlb {
+	 border-left: 3px solid rgba(29, 110, 75, 1);
+}
+ .mlb:hover {
+	 border-left: 3px solid rgba(82, 210, 154, 1);
+}
+ .nhl {
+	 border-left: 3px solid rgba(157, 121, 25, 0.7);
+}
+ .nhl:hover {
+	 border-left: 3px solid rgba(231, 196, 104, 0.7);
+}
+ .pga {
+	 border-left: 3px solid rgba(149, 47, 18, 1);
+}
+ .pga:hover {
+	 border-left: 3px solid rgba(235, 118, 85, 1);
+}
+/* row one - fadeIn */
+ .row-fadeIn-wrapper {
+	 opacity: 0;
+	 font-size: 0;
+	 height: 0;
+	 overflow: hidden;
+	 position: relative;
+	 transition: all 0.2s ease-out;
+	 animation: fadeIn 0.4s ease-out 2s 1 alternate;
+	 animation-fill-mode: forwards;
+}
+ .row-fadeIn-wrapper:hover {
+	 height: 35px;
+}
+ 
+	 .row-fadeIn-wrapper:hover {
+		 height: 55px;
+	}
+
+ 
+	 .row-fadeIn-wrapper:hover {
+		 height: 75px;
+	}
+
+ .fadeIn {
+	 padding: 20px 0;
+	 font-size: 0;
+	 position: absolute;
+	 transition: all 0.2s ease-out;
+	 width: 100%;
+}
+ .fadeIn:hover {
+	 background-color: rgba(26, 26, 26, 0.9);
+}
+/* row two - fadeOut */
+ .row-fadeOut-wrapper {
+	 font-size: 0;
+	 overflow: hidden;
+	 position: relative;
+	 transition: all 0.2s ease-out;
+	 animation: fadeOut 0.4s ease-out 8s 1 alternate;
+	 animation-fill-mode: forwards;
+	 opacity: 1;
+	 height: 65px;
+}
+ .row-fadeOut-wrapper:hover {
+	 height: 100px;
+}
+
+ 
